@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function NavBar() {
   return (
-    <nav className="bg-navbar-bg-light border-gray-200 dark:bg-navbar-bg-dark">
+    <nav className="mb-6 bg-navbar-bg-light border-gray-200 dark:bg-navbar-bg-dark">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://github.com/L2-Izana"

@@ -23,7 +23,7 @@
 *.swp
 
 # Ignore OS-specific files
-.DS_Store
+.DS_Store   
 Thumbs.db
 
 # Ignore IDE/editor specific files
@@ -31,3 +31,7 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+
+# Ignore LukeDo's study note
+studynote.md

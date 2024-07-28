@@ -35,15 +35,14 @@
 //   );
 // }
 
-import MovieCard from "./components/MovieCard";
+import Content from "./components/Content";
 import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="bg-background-light dark:bg-background-dark">
       <NavBar />
-      <MovieCard></MovieCard>
-      <MovieCard></MovieCard>
+      <Content />
     </div>
   );
 }
