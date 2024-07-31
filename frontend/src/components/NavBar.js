@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react";
 
 function NavBar() {
   return (
-    <nav className="mb-6 bg-navbar-bg-light border-gray-200 dark:bg-navbar-bg-dark">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="fixed top-0 left-0 w-full mb-6 bg-transparent hover:bg-navbar-bg-light border-gray-200 dark:bg-navbar-bg-dark">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <a
           href="https://github.com/L2-Izana"
           className="flex items-center space-x-3 rtl:space-x-reverse"

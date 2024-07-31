@@ -113,7 +113,7 @@ function MovieCardBackSide({ title, genre, description, handleCardFlip }) {
             />
           </svg>
         </button>
-        <ActionButton label={"Watch"} />
+        <ActionButton label={"Rating"} />
       </div>
     </div>
   );

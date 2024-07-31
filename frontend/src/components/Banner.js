@@ -1,5 +1,5 @@
 import ActionButton from "./ActionButton";
-
+import NavBar from "./NavBar";
 import BannerBackgroundImg from "../media/banner_background.jpg";
 import BannerThumbnailImg from "../media/banner_thumbnail.jpg";
 
@@ -19,6 +19,7 @@ function Banner() {
         color: "white",
       }}
     >
+      <NavBar></NavBar>
       <div
         className="banner-content"
         style={{
